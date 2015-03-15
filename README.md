@@ -34,3 +34,4 @@ Contribute, change things, submit a pull request!
 
 ## New Contributors
 Joseph Lei
+Contribute, change things, submit a pull request! We will all contribute. 

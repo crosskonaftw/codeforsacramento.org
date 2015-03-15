@@ -1,42 +1,22 @@
-  <footer class="site-footer">
+  <footer>
 
-    <div class="wrapper">
-
-      <h2 class="footer-heading">{{ site.title }}</h2>
-
-      <div class="footer-col-wrapper">
-        <div class="footer-col  footer-col-1">
-          <ul class="contact-list">
-            <li>{{ site.title }}</li>
-            <li><a href="mailto:{{ site.email }}">{{ site.email }}</a></li>
-          </ul>
+    <div class="container">
+      <hr>
+      <div class="row">
+        <div class="col-sm-6">
+          <p><i class="fa fa-code"></i> Code for Sacramento 
+            <br><i class="fa fa-building"></i> 1715 I Street, Sacramento, CA 95814</p>
         </div>
-
-        <div class="footer-col  footer-col-2">
-          <ul class="social-media-list">
-            {% if site.github_username %}
-            <li>
-              <a href="https://github.com/{{ site.github_username }}">
-                <span class="username">{{ site.github_username }}</span>
-              </a>
-            </li>
-            {% endif %}
-
-            {% if site.twitter_username %}
-            <li>
-              <a href="https://twitter.com/{{ site.twitter_username }}">
-                <span class="username">{{ site.twitter_username }}</span>
-              </a>
-            </li>
-            {% endif %}
+        <div class="col-sm-6">
+          <ul class="list-unstyled pull-right">
+            <li><a href="https://github.com/code4sac/codeforsacramento.org" class="btn btn-primary btn-xs" target="_blank"><i class="fa fa-code-fork"></i> Pull requests welcome!</a></li>
+            <li><a href="https://www.facebook.com/code4sac"><i class="fa fa-facebook" target="_blank"></i></a></li>
+            <li><a href="https://twitter.com/code4sac"><i class="fa fa-twitter" target="_blank"></i></a></li>
+            <li><a href="https://github.com/code4sac"><i class="fa fa-github" target="_blank"></i></a></li>
+            <li><a href="http://www.meetup.com/code4sac/"><i class="fa fa-calendar" target="_blank"></i></a></li>
           </ul>
-        </div>
-
-        <div class="footer-col  footer-col-3">
-          <p class="text">{{ site.description }}</p>
         </div>
       </div>
-
     </div>
 
   </footer>

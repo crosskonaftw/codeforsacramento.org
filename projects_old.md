@@ -7,8 +7,8 @@ permalink: /projects_old/
 
 ####For a full list of our projects, checkout [our github repos](https://github.com/code4sac).
 
-##JJL comment##
-<hr />
+##removed jjl comment
+<hr/>
 
 ##Open Issues
 If you're looking to contribute to Code for Sacramento, these open issues are as good a place as any to start.
